@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #root {
+      width: 100vw;
+      height: 100vh;
+      background-color: #c4c4c4;
+      border: 1px solid black;
+    }
+    /* head */
+    #main {
+      width: 100vw;
+      height: 20vh;
+      background-color: aliceblue;
+      border: 1px solid black;
+    }
+
+    /* mid */
+    #wrap {
+      width: 90vw;
+      height: 50vh;
+      background-color: white;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #wrap > section {
+      width: 70vw;
+      height: 30vh;
+      border: 1px solid black;
+    }
+
+    #con {
+      width: 85vw;
+      height: 30vh;
+      margin: 1vw;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+
+    #con > div {
+      width: 20vw;
+      height: 20vh;
+      margin: 2vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div id="main"></div>
+    <div id="wrap">
+      <section></section>
+    </div>
+    <div id="con">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+</html>
